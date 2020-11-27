@@ -29,16 +29,5 @@ public class Main {
             }
             System.out.println("Login Successfully!");
         }
-        try {
-            List<Entity> entityList=Service.getInstance().report();
-            for(Entity entity: entityList){
-                System.out.println(entity.getName());
-                System.out.println(entity.getUser());
-                System.out.println(entity.getPass());
-                System.out.println(entity.getEmail());
-            }
-        }catch (Exception e){
-            System.out.println("Failed to report!"+e.getMessage());
-        }
     }
 }

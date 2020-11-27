@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #FF5733; -fx-background-radius: 0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.Controller">
+    <Label alignment="CENTER" layoutX="110.0" layoutY="33.0" prefHeight="66.0" prefWidth="378.0" style="-fx-background-color: #0F36FF;" text="Welcome to the website choose an option!" textFill="#fbff00" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <font>
+          <Font size="20.0" />
+        </font>
+    </Label>
+    <Button fx:id="loginMain" layoutX="121.0" layoutY="276.0" mnemonicParsing="false" onAction="#lgnMain" prefHeight="102.0" prefWidth="115.0" text="Login" textFill="#1cb1cf">
+        <font>
+          <Font size="25.0" />
+        </font>
+    </Button>
+    <Button fx:id="signupMain" layoutX="371.0" layoutY="276.0" mnemonicParsing="false" onAction="#suMain" prefHeight="102.0" prefWidth="115.0" text="Signup" textFill="#1cb1cf">
+        <font>
+          <Font size="25.0" />
+        </font>
+    </Button>
+</AnchorPane>
