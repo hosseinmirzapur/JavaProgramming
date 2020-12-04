@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="790.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.WorkerFormController">
+    <Label alignment="CENTER" layoutX="5.0" layoutY="7.0" prefHeight="108.0" prefWidth="591.0" text="فرم درخواست استخدام" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="5.0">
+        <font>
+            <Font name="Arial Bold" size="23.0" />
+        </font>
+    </Label>
+    <TextField fx:id="a9" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="48.0" promptText="تاریخ: ..............................." />
+    <Label alignment="CENTER" layoutX="439.0" layoutY="113.0" prefHeight="38.0" prefWidth="141.0" text="1-مشخصات فردی">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Label>
+    <TextField fx:id="a1" alignment="CENTER_RIGHT" layoutX="405.0" layoutY="163.0" promptText="نام و نام خانوادگی:" />
+    <TextField fx:id="a2" alignment="CENTER_RIGHT" layoutX="405.0" layoutY="196.0" promptText="کد ملی:" />
+    <TextField fx:id="a3" alignment="CENTER_RIGHT" layoutX="405.0" layoutY="229.0" promptText="تاریخ تولد:" />
+    <TextField fx:id="a4" alignment="CENTER_RIGHT" layoutX="405.0" layoutY="262.0" promptText="تلفن همراه:" />
+    <TextField fx:id="a5" alignment="CENTER_RIGHT" layoutX="147.0" layoutY="163.0" promptText="نام پدر:" />
+    <TextField fx:id="a6" alignment="CENTER_RIGHT" layoutX="147.0" layoutY="196.0" promptText="شماره شناسنامه:" />
+    <TextField fx:id="a7" alignment="CENTER_RIGHT" layoutX="147.0" layoutY="229.0" promptText="محل تولد:" />
+    <TextField fx:id="a8" alignment="CENTER_RIGHT" layoutX="147.0" layoutY="262.0" promptText="تلفن ثابت:" />
+    <Label alignment="CENTER_RIGHT" layoutX="360.0" layoutY="296.0" prefHeight="47.0" prefWidth="200.0" text="2-وضعیت نظام وظیفه آقایان:">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Label>
+    <CheckBox fx:id="b1" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="439.0" layoutY="370.0" mnemonicParsing="false" text="دارای کارت پایان خدمت" />
+    <CheckBox fx:id="b2" layoutX="316.0" layoutY="370.0" mnemonicParsing="false" text="دارای کارت معافیت" />
+    <CheckBox fx:id="b3" layoutX="173.0" layoutY="370.0" mnemonicParsing="false" text="دارای معافیت تحصیلی" />
+    <CheckBox fx:id="b4" layoutX="18.0" layoutY="370.0" mnemonicParsing="false" text="مشمول یا در حال خدمت" />
+    <Label layoutX="283.0" layoutY="418.0" prefHeight="38.0" prefWidth="284.0" text="3- وضعیت آشنایی با نرم افزار های کامپیوتری:">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Label>
+    <CheckBox fx:id="b5" layoutX="444.0" layoutY="483.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="126.0" text="Word" />
+    <CheckBox fx:id="b6" layoutX="315.0" layoutY="483.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="117.0" text="Excel" />
+    <CheckBox fx:id="b7" layoutX="181.0" layoutY="483.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="117.0" text="Access" />
+    <CheckBox fx:id="b8" layoutX="29.0" layoutY="483.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="117.0" text="Power Point" />
+    <Label layoutX="405.0" layoutY="515.0" prefHeight="38.0" prefWidth="154.0" text="4-نرم افزار های تخصصی:">
+        <font>
+            <Font name="System Bold" size="15.0" />
+        </font>
+    </Label>
+    <CheckBox fx:id="b9" layoutX="389.0" layoutY="562.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="C#" />
+    <CheckBox fx:id="b10" layoutX="389.0" layoutY="588.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="Web services" />
+    <CheckBox fx:id="b11" layoutX="389.0" layoutY="614.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="Java Script" />
+    <CheckBox fx:id="b12" layoutX="389.0" layoutY="640.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="XML" />
+    <CheckBox fx:id="b13" layoutX="389.0" layoutY="666.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="Photoshop" />
+    <CheckBox fx:id="b14" layoutX="202.0" layoutY="562.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="ASP.Net" />
+    <CheckBox fx:id="b15" layoutX="202.0" layoutY="588.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="SQL server" />
+    <CheckBox fx:id="b16" layoutX="202.0" layoutY="614.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="jQuery" />
+    <CheckBox fx:id="b17" layoutX="202.0" layoutY="640.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="C++" />
+    <CheckBox fx:id="b18" layoutX="202.0" layoutY="666.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="Corel" />
+    <CheckBox fx:id="b19" layoutX="17.0" layoutY="562.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="LINQ" />
+    <CheckBox fx:id="b20" layoutX="17.0" layoutY="588.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="CSS" />
+    <CheckBox fx:id="b23" layoutX="17.0" layoutY="666.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="Flash" />
+    <CheckBox fx:id="b21" layoutX="17.0" layoutY="614.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="HTML" />
+    <CheckBox fx:id="b22" layoutX="17.0" layoutY="640.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="PHP" />
+   <Button fx:id="c1" layoutX="229.0" layoutY="705.0" mnemonicParsing="false" onAction="#c1Action" prefHeight="60.0" prefWidth="154.0" style="-fx-background-radius: 90;" text="ثبت">
+      <font>
+         <Font name="System Bold" size="20.0" />
+      </font>
+   </Button>
+</AnchorPane>
